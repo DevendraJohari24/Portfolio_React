@@ -14,31 +14,33 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={ME} alt="" />
+                        <img src={ME} alt="" className="about__me-about-img" />
                     </div>
                 </div>
                 <div className="about__content">
                     <div className="about__cards">
                         <article className="about__card">
                             <FaAward className="about__icon" />
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
-                        </article>
-                        <article className="about__card">
-                            <FiUsers className="about__icon" />
-                            <h5>Clients</h5>
-                            <small>300+ Worldwide</small>
+                            <h5>Internships</h5>
+                            <small>One (3 Months)</small>
                         </article>
                         <article className="about__card">
                             <VscFolderLibrary className="about__icon" />
                             <h5>Projects</h5>
-                            <small>80+ Completed</small>
+                            <small>10+ Completed</small>
+                        </article>
+                        <article className="about__card">
+                            <FiUsers className="about__icon" />
+                            <h5>Certfications</h5>
+                            <small>2 Certificates</small>
                         </article>
                     </div>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        I am Devendra Johari from Lakhimpur-Kheri, Uttar Pradesh. I am a final year student pursuing B.Tech in Computer Science 
+                        from Graphic Era University, Dehradun. I also have an speciallisation in Machine Learning. In my 3rd year I successfully passed Redhat Engineer Exam (Ex294).
+                        I have a keen interest in Frontend Development as well as in Machine Learning. I am a passionate, goal oriented and determinent learner. Besides that 
+                        I also write poetries and sketching in my free time. My Aim is become a successfull engineer and a good human in my life. I hope you like my portfolio. Feel free to
+                        contact Me.   
                     </p>
                     <a href="#contact" className="btn btn-primary" onClick={() => {
                         ctx.onChangeSection("#contact");

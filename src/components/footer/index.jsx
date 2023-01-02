@@ -11,7 +11,7 @@ const Footer = () => {
     const ctx = useContext(NavContext);
     return (
         <footer>
-            <a href="#home" className="footer__logo">DEVENDRA</a>
+            <a href="#home" className="footer__logo">PORTFOLIO</a>
             <ul className="permalinks">
                 <li><a href="#home" onClick={() => {
                     ctx.onChangeSection("#home");
@@ -37,14 +37,14 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://facebook.com"><FaFacebook/> </a>
-                <a href="https://instagram.com"><FiInstagram /> </a>
-                <a href="https://twitter.com"><IoLogoTwitter /></a>
+                <a href="https://www.facebook.com/Devendrajoharidj"><FaFacebook/> </a>
+                <a href="https://www.instagram.com/devendrajohari/"><FiInstagram /> </a>
+                <a href="https://twitter.com/JohariDevendra"><IoLogoTwitter /></a>
 
             </div>
 
             <div className="footer__copyright">
-                <small>&copy; Devendra. All rights reserved.</small>
+                <small>&copy; Portfolio. All rights reserved.</small>
             </div>
         </footer>
     );
